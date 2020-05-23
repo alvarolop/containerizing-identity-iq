@@ -6,7 +6,8 @@ volumes:
 
 services:
   db:
-    build: ./ICAM-MYSQL
+   #  build: ./ICAM-MYSQL
+    image: "uedocker_mysql:latest"
     expose:
        - "3306"
     ports:
@@ -40,7 +41,7 @@ services:
     links:
        - app:iiq.icam.local
     ports:
-       - "443:443"
-       - "80:80"
+       - "8443:443"
+       - "8081:80"
     volumes:
        - "./volumes/web-logs:/ue/logs/httpd"
