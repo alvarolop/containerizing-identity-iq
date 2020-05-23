@@ -1,6 +1,8 @@
 # Containerizing IdentityIQ
 This repository shows how to containerize Identity IQ for testing purposes. **CAUTION** This repository is not intended for production environments.
 
+In this repository, we are going to test installation of Sailpoint 8.0 
+
 
 ## Acknowledgments
 
