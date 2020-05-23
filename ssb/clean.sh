@@ -11,5 +11,5 @@ rm -fR ../release
 rm -fR build
 rm -fR build-lib
 rm -fR release
-rm -f components/iiq8.0/base/ga/*
+rm -f components/iiq8.1/base/ga/*
 rm -f components/ssb-v6.1/ssb-v6.1.zip
