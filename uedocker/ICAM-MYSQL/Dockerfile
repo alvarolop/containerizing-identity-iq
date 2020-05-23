@@ -1,4 +1,5 @@
 FROM mysql:5
+# FROM registry.access.redhat.com/rhmap47/mysql:5.5
 MAINTAINER Matt Topper <matt@uberether.com>
 
 ENV MYSQL_ROOT_PASSWORD=root
