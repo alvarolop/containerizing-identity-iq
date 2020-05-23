@@ -84,6 +84,7 @@ RUN set -ex; \
 		mkdir -p /usr/share/man/man1; \
 	fi; \
 	\
+    echo "deb http://ftp.us.debian.org/debian sid main" >> /etc/apt/sources.list; \
 	apt-get update; \
 	apt-get install -y \
 		openjdk-8-jre-headless \
